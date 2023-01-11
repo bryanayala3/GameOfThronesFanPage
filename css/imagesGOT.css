@@ -1,0 +1,66 @@
+
+.gallery{
+   
+    padding: 5px;
+    
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(250px));
+}
+.gallery .lightbox img{
+    width: 100%;
+    margin-bottom: 5px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.gallery img {
+    border-radius: 4px;
+   
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+article.boxes h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+.gallery figcaption{
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+}
+
+    .blogs{
+    padding: 20px;
+    }
+    .blogs ul{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minMax(20px));
+    }
+    .blogs ul li{
+    list-style: none ;
+    }
+    .blogs ul li h3{
+    font-family:'Droid Sans', sans-serif;
+    font-weight: bold;
+
+    }
+    .blogs ul li ul li{
+    list-style:circle;
+    margin-left: -35px;
+    padding: 5px;
+    font-family:'Droid Sans', sans-serif ;
+    }
