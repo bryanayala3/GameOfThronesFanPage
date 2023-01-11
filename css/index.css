@@ -1,34 +1,31 @@
-.boxes{
-
-    border: 1px solid black;
+.boxes {
+  border: 1px solid darkcyan;
 }
-.mainArticle{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+.mainArticle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
-.mainArticle h2{
-    color:darkslategray;
-    font-weight: bold;
-    
+.mainArticle h2 {
+  color: darkslategray;
+  font-weight: bold;
 }
 
-.blogs{
-    width: 100%;
+.blogs {
+  width: 100%;
 }
-.blogs ul{
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+.blogs ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-.blogs ul li a{
-    text-decoration: none;
-    color: black;
-
+.blogs ul li a {
+  text-decoration: none;
+  color: black;
 }
-.blogs ul li a:hover{
-color: aquamarine;
+.blogs ul li a:hover {
+  color: aquamarine;
 }
-.blogs ul h3{
-    color: darkslategray;
+.blogs ul h3 {
+  color: darkslategray;
 }
